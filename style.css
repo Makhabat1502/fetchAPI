@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.title {
+    text-align: center;
+    margin: 50px 0;
+  }
+  .card {
+    max-width: 500px;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(230, 235, 238);
+  }
+  
+  .card-title {
+    display: block;
+    margin: 20px 0;
+    font-size: 18px;
+  }
+  .card-img {
+    min-width: 200px;
+    max-height: 400px;
+    margin-bottom: 15px;
+  }
+  .price {
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    margin: 20px 0;
+  }
+  
+  .content {
+    background-color: #c5e9f0;
+    color: #0b1011;
+    border-radius: 20px;
+    padding: 15px;
+  }
